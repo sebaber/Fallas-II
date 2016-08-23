@@ -1,0 +1,24 @@
+-> Cosas que hay que hacer:
+
+1°Mitad:
+
+- Druls (Motor de inferencia): encargado de definir las reglas.
+
+Ahora vamos a programarlo en Python
+- Programacion probabilística
+- Algoritmo Rette (hay que implementarlo): lo implementa el motor de inferencia
+
+2°Mitad:
+
+-> El resultado de la metodologia ideal:
+- LLevarlo a una base de datos orientada a grafos(Orientada a NoSQL pero genera relaciones) implementando una red semantica
+
+Recursos:
+
+* Base de datos orientada a grafos: googlear "orientDB"
+
+* Lenguaje de programacion: googlear "probabilisticProgramming"
+
+Python 2 versiones: 2.7 y 3.algo
+Ojo las libs -> no todas pasadas a 3.algo
+Bibliografia: Python para todos (libro)
