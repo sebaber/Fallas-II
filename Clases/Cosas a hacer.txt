@@ -6,7 +6,7 @@
 
 Ahora vamos a programarlo en Python
 - Programacion probabilística
-- Algoritmo Rette (hay que implementarlo): lo implementa el motor de inferencia
+- Algoritmo Rete (hay que implementarlo): lo implementa el motor de inferencia
 
 2°Mitad:
 

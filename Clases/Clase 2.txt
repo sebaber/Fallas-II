@@ -1,0 +1,54 @@
+Motor de inferencia:
+
+IMPORTANTE:
+-> EL USUARIO ES EL QUE DETERMINA SI ES UN ENCADENAMIENTO HACIA ADELANTE O HACIA ATRAS, MEDIANTE SU INFORMACION
+- Si no tiene conocimiento, le hacemos preguntas(encadenamiento hacia adelante)
+- Si tiene conocimiento, parto de la hoja hacia la raiz(encadenamiento hacia atras) 
+
+-> Encadenamiento hacia adelante:
+- Entramos por el if() contesto y se lo paso al siguiente
+
+-> Encadenamiento hacia atras
+- Entramos por el then
+
+- Mecanismo de inferencia: reglas
+- Base de conocimiento: respuestas almacenadas
+
+Proceso de unificacion:
+
+Patron blackboard:
+
+Version simple:
+-> Proceso que publica en un pizarron
+-> Todos los demas nodos escuchan la pizarra
+1- Cuando aparece algo, alguien lo toma, se hace responsable y se marca como que el lo tomo.
+2- Lo procesa
+3- Lo devuelve
+
+*Caracteristicas:
+
+Version sofisticada:
+- Lo marca pero no de manera exclusiva.
+- Deja que otros tmb lo agarren
+- El primero que contesta se toma esa respuesta
+
+Problemas:
+- Si un nodo se cae, y es el que lo habia tomado, no se concluye la tarea.
+- Una sola pizarra
+
+Solucion:
+1- Poner un tiempo estimado de finalizacion.
+2- Si expira, le pregunta al nodo si esta vivo:
+	a- si esta vivo, le extiendo el tiempo
+	b- sino, vuelvo a poner la tarea en el board y corto ese nodo
+
+Una vez que se terminan las reglas, se arma un arbol con las reglas
+
+1°- 17 Octubre: implementar encadenamiento hacia adelante y encadenamiento hacia atras
+Lenguaje que queramos(python, c, java)
+
+2°- 14 Noviembre: implementar lo de 1° pero con programacion probabilistica (lenguajes Prolog, Python)
+
+Sistema experto difuso (lavarropa):
+- Determina rangos para los valores, categorizandolos
+Ej: para 1 considero  que  -0,5 a 1.5 es 1
